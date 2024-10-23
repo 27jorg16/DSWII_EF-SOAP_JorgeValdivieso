@@ -107,7 +107,9 @@
 				</executions>
 				<configuration>
 					<sources>
-						<source>${project.basedir}/src/main/resources/xsd/</source>
+						<source>${project.basedir}/src/main/resources/xsd/proveedores.xsd</source>
+						<source>${project.basedir}/src/main/resources/xsd/productos.xsd</source>
+						<source>${project.basedir}/src/main/resources/xsd/clientes.xsd</source>
 					</sources>
 					<outputDirectory>src/main/java</outputDirectory>
 					<clearOutputDir>false</clearOutputDir>

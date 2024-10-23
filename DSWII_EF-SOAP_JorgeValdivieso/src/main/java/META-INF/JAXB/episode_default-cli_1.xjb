@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="3.0" xmlns="https://jakarta.ee/xml/ns/jaxb">
+  <!--
+
+Este archivo ha sido generado por Eclipse Implementation of JAXB v3.0.0 
+Visite https://eclipse-ee4j.github.io/jaxb-ri 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2024.10.22 a las 11:32:41 PM PET 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="http://www.cibertec.edu.pe/ws/objects">
+    <schemaBindings map="false">
+      <package name="pe.edu.cibertec.ws.objects"/>
+    </schemaBindings>
+    <bindings scd="tns:getProductosRequest">
+      <class ref="pe.edu.cibertec.ws.objects.GetProductosRequest"/>
+    </bindings>
+    <bindings scd="tns:getProductosResponse">
+      <class ref="pe.edu.cibertec.ws.objects.GetProductosResponse"/>
+    </bindings>
+    <bindings scd="~tns:producto">
+      <class ref="pe.edu.cibertec.ws.objects.Producto"/>
+    </bindings>
+    <bindings scd="tns:getProductoRequest">
+      <class ref="pe.edu.cibertec.ws.objects.GetProductoRequest"/>
+    </bindings>
+    <bindings scd="tns:getProductoResponse">
+      <class ref="pe.edu.cibertec.ws.objects.GetProductoResponse"/>
+    </bindings>
+    <bindings scd="tns:postProductoRequest">
+      <class ref="pe.edu.cibertec.ws.objects.PostProductoRequest"/>
+    </bindings>
+    <bindings scd="tns:postProductoResponse">
+      <class ref="pe.edu.cibertec.ws.objects.PostProductoResponse"/>
+    </bindings>
+  </bindings>
+</bindings>
+
