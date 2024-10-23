@@ -1,0 +1,61 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:tns="http://www.cibertec.edu.pe/ws/objects"
+           targetNamespace="http://www.cibertec.edu.pe/ws/objects"
+           elementFormDefault="qualified">
+
+    <xs:complexType name="proveedorws">
+        <xs:sequence>
+            <xs:element name="proveedorId" type="xs:int" />
+            <xs:element name="nombreProveedor" type="xs:string" />
+            <xs:element name="telefonoProveedor" type="xs:string" minOccurs="0" />
+            <xs:element name="correoProveedor" type="xs:string" />
+            <xs:element name="direccionProveedor" type="xs:string" />
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:element name="getProveedoresRequest">
+        <xs:complexType>
+            <xs:sequence />
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="getProveedoresResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="proveedores" type="tns:proveedorws" maxOccurs="unbounded" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="getProveedorRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="proveedorId" type="xs:int" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="getProveedorResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="proveedor" type="tns:proveedorws" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="postProveedorRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="proveedor" type="tns:proveedorws" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="postProveedorResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="proveedor" type="tns:proveedorws" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
