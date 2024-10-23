@@ -1,7 +1,7 @@
 # Read Me First
 The following was discovered as part of building this project:
 
-* The original package name 'pe.edu.ciberetec.DSWII_EF-SOAP_JorgeValdivieso' is invalid and this project uses 'pe.edu.ciberetec.DSWII_EF_SOAP_JorgeValdivieso' instead.
+* The original package name 'pe.edu.cibertec.DSWII_EF-SOAP_JorgeValdivieso' is invalid and this project uses 'pe.edu.cibertec.DSWII_EF_SOAP_JorgeValdivieso' instead.
 
 # Getting Started
 
